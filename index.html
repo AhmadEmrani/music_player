@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Music player Rasta</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-bar">
+            <i class="material-icons">expand_more</i>
+            <span>Now playing</span>
+            <i class="material-icons">more_horiz</i>
+        </div>
+        <div class="img-area">
+            <img src="img/music-1.jpg" alt="">
+        </div>
+        <div class="song-details">
+            <p class="name">roozhaye gharib</p>
+            <p class="artist">alireza ghoebani</p>
+        </div>
+        <div class="progress-area">
+            <div class="progress-bar">
+                <span></span>
+            </div>
+            <div class="timer">
+                <span class="current">0:20</span>
+                <span class="duration">3:40</span>
+            </div>
+            <audio id="main-audio" src=""></audio>
+        </div>
+        
+        <div class="controls">
+            <i id="prepeat-list" class="material-icons" title="playlist looped">repeat</i>
+            <i id="prev" class="material-icons">skip_previous</i>
+            <div class="play-pause">
+                <i id="repeat-plist" class="material-icons">play_arrow</i>
+            </div>
+            <i id="next" class="material-icons">skip_next</i>
+            <i id="more-music" class="material-icons">queue_music</i>
+        </div>
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                    <i class="material-icons">queue_music</i>
+                    <span>Music list</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+            </div>
+            <ul>
+                
+            </ul>
+        </div>
+       
+    </div>
+
+
+<script src="js/music-list.js"></script>
+<script src="js/sript.js"></script>
+
+</body>
+</html>
